@@ -13,7 +13,7 @@
 
 Öncelikle sunucumuza "ssh kullanici@ipadresi" şeklinde bağlandıktan sonra , screen -S opi yazıyoruz.
 <br>
-screen not found hatası alanlar "sudo apt install screen" komutunu yazdıktan sonra tekrar denesin.
+screen not found hatası alanlar "sudo apt install screen -y" komutunu yazdıktan sonra tekrar denesin.
 
 1. Kurulum scriptini çalıştıralım : 
 
