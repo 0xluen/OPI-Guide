@@ -52,3 +52,4 @@ wget https://opi-light-client-files.fra1.digitaloceanspaces.com/light_client_brc
 tar -xvf light_client_brc20_sqlite_last.sqlite3.tar.bz2
 rm light_client_brc20_sqlite_last.sqlite3.tar.bz2
 python3 initialise_sqlite.py
+python3 brc20_light_client_sqlite.py
