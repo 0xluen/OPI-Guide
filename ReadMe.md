@@ -21,9 +21,14 @@ screen not found hatası alanlar "sudo apt install screen -y" komutunu yazdıkta
 </code></pre>
 
 <br>
- 
- 2. (Opsiyonel) Api scriptini çalıştıralım : 
 
+
+ 
+ 2. (Opsiyonel) API Kurulumu :
+    
+* ctrl+a+d ile node screen arka plana atalım
+* screen -S api komutu ile yeni screen oluşturalım ve scripti çalıştıralım
+  
 <pre class="notranslate"><code>wget -O setup-api.sh https://raw.githubusercontent.com/Whale-Alpha/Opi-Guide/main/setup-api.sh && chmod +x setup-api.sh && ./setup-api.sh
 </code></pre>
 
